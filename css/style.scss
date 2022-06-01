@@ -160,3 +160,101 @@ h1 {
     letter-spacing: 0.5px;
 }
 
+.steps {
+    width: 1177px;
+    height: 247px;
+    margin: 80px auto 97px;
+}
+
+.title {
+    color: $orange-color;
+    font-family: $red_hat_text-family;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 53px;
+    text-align: center;
+    letter-spacing: 0.5px;
+}
+
+.icons {
+    width: 994px;
+    margin: 40px auto 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.steps_texts {
+    display: flex;
+    justify-content: space-between;
+}
+
+.steps_texts_text {
+    font-family: $aleo-family;
+    font-size: 20px;
+    line-height: 24px;
+    color: $btn-color;
+    &:nth-child(2) {
+        margin-left: 70px;
+    }
+}
+
+.slider_image {
+    max-width: 1440px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    margin-top: 46px;
+}
+
+.slider_slide {
+    margin-right: 60px;
+    &:nth-last-child() {
+        margin-right: 0;
+    }
+}
+
+.s1 {
+    margin-left: -540px;
+}
+
+.slider_btn {
+    display: none;
+}
+
+.slider-btn {
+    display: flex;
+    flex-direction: row;
+    margin: 24px auto 40px;
+    width: 80px;
+    justify-content: space-between;
+}
+
+.slider-btn_btn {
+    display: block;
+    height: 20px;
+    width: 20px;
+    border: 0;
+    border-radius: 50%;
+    background-color: rgba(242, 120, 92, 0.5);
+    cursor: pointer;
+    &:nth-child(2) {
+        background-color: $orange-color;
+    }
+}
+
+.sl-btn {
+    @include btn;
+    width: 228px;
+    height: 59px;
+    font-size: 24px;
+    line-height: 32px;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    letter-spacing: 0.5px;
+}
+
+.sl-btn_img {
+    margin-right: 10px;
+    margin-left: 31px;
+}

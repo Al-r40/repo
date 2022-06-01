@@ -177,4 +177,137 @@ h1 {
   z-index: 2;
   letter-spacing: 0.5px;
 }
+
+.steps {
+  width: 1177px;
+  height: 247px;
+  margin: 80px auto 97px;
+}
+
+.title {
+  color: #F2785C;
+  font-family: "Red Hat Text";
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 53px;
+  text-align: center;
+  letter-spacing: 0.5px;
+}
+
+.icons {
+  width: 994px;
+  margin: 40px auto 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.steps_texts {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.steps_texts_text {
+  font-family: "Aleo";
+  font-size: 20px;
+  line-height: 24px;
+  color: #0D606F;
+}
+
+.steps_texts_text:nth-child(2) {
+  margin-left: 70px;
+}
+
+.slider_image {
+  max-width: 1440px;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin-top: 46px;
+}
+
+.slider_slide {
+  margin-right: 60px;
+}
+
+.slider_slide:nth-last-child() {
+  margin-right: 0;
+}
+
+.s1 {
+  margin-left: -540px;
+}
+
+.slider_btn {
+  display: none;
+}
+
+.slider-btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin: 24px auto 40px;
+  width: 80px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.slider-btn_btn {
+  display: block;
+  height: 20px;
+  width: 20px;
+  border: 0;
+  border-radius: 50%;
+  background-color: rgba(242, 120, 92, 0.5);
+  cursor: pointer;
+}
+
+.slider-btn_btn:nth-child(2) {
+  background-color: #F2785C;
+}
+
+.sl-btn {
+  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 2px 3px rgba(13, 96, 111, 0.16);
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 2px 3px rgba(13, 96, 111, 0.16);
+  border-radius: 10px;
+  background-color: #0D606F;
+  color: #fff;
+  border: 0;
+  font-weight: 500;
+  font-family: "Red Hat Text";
+  width: 228px;
+  height: 59px;
+  font-size: 24px;
+  line-height: 32px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: auto;
+  letter-spacing: 0.5px;
+}
+
+.sl-btn_img {
+  margin-right: 10px;
+  margin-left: 31px;
+}
 /*# sourceMappingURL=style.css.map */
