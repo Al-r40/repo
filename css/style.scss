@@ -30,6 +30,10 @@ $aleo-family: 'Aleo';
     padding: 0;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     max-width: 1440px;
 }
@@ -155,3 +159,4 @@ h1 {
     z-index: 2;
     letter-spacing: 0.5px;
 }
+
