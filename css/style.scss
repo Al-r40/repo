@@ -1,8 +1,10 @@
 $white-color: #fff;
 $header-color: rgba(242, 120, 92, 0.7);
 $btn-color: #0D606F;
+$orange-color: #F2785C;
 $magra-font-family: 'Magra';
 $red_hat_text-family: 'Red Hat Text';
+$aleo-family: 'Aleo';
 
 
 @mixin fix {
@@ -10,6 +12,16 @@ $red_hat_text-family: 'Red Hat Text';
     left: 0;
     right: 0;
     top: 0;
+}
+
+@mixin btn {
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 2px 3px rgba(13, 96, 111, 0.16);
+    border-radius: 10px;
+    background-color: $btn-color;
+    color: $white-color;
+    border: 0;
+    font-weight: 500;
+    font-family: $red_hat_text-family;
 }
 
 
@@ -72,15 +84,74 @@ body {
 }
 
 .login_btn {
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 2px 3px rgba(13, 96, 111, 0.16);
-    border-radius: 10px;
-    background-color: $btn-color;
     width: 103px;
     height: 41px;
-    color: $white-color;
-    font-weight: 500;
     font-size: 16px;
     line-height: 21px;
-    font-family: $red_hat_text-family;
+    @include btn;
+}
+
+// MAIN
+
+#preview {
+    background-image: url(../assets/img/first-slide.jpg);
+    color: $white-color;
+    height: 765px;
+}
+
+.plan-trip {
+    padding-left: 120px;
+    padding-top: 122px;
+}
+
+h1 {
+    font-family: $aleo-family;
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 96px;
+    letter-spacing: 0.95px;
+    max-width: 892px;
+}
+
+.plan-trip_desc {
+    font-family: $aleo-family;
+    font-style: italic;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    margin-top: 32px;
+    letter-spacing: 0.1px;
+}
+
+.plan-trip_text {
+    width: 892px;
+    height: 95px;
+    color: $orange-color;
+    font-family: $aleo-family;
+    font-style: italic;
+    font-size: 24px;
+    line-height: 29px;
+    background: rgba(255, 255, 255, 0.7);
+    border-radius: 16px;
     border: 0;
+    margin-bottom: 33px;
+    margin-top: 46px;
+    overflow-y: hidden;
+    &::placeholder {
+        padding: 32px 45px 41px 41px;
+        color: $orange-color;
+    }
+}
+
+.plan-trip_btn {
+    @include btn;
+    font-size: 24px;
+    line-height: 32px;
+    width: 228px;
+    height: 59px;
+    position: absolute;
+    left: 766px;
+    top: 434px;
+    z-index: 2;
+    letter-spacing: 0.5px;
 }

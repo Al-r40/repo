@@ -74,17 +74,103 @@ body {
 }
 
 .login_btn {
+  width: 103px;
+  height: 41px;
+  font-size: 16px;
+  line-height: 21px;
   -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 2px 3px rgba(13, 96, 111, 0.16);
           box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 2px 3px rgba(13, 96, 111, 0.16);
   border-radius: 10px;
   background-color: #0D606F;
-  width: 103px;
-  height: 41px;
   color: #fff;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 21px;
-  font-family: "Red Hat Text";
   border: 0;
+  font-weight: 500;
+  font-family: "Red Hat Text";
+}
+
+#preview {
+  background-image: url(../assets/img/first-slide.jpg);
+  color: #fff;
+  height: 765px;
+}
+
+.plan-trip {
+  padding-left: 120px;
+  padding-top: 122px;
+}
+
+h1 {
+  font-family: "Aleo";
+  font-weight: 700;
+  font-size: 80px;
+  line-height: 96px;
+  letter-spacing: 0.95px;
+  max-width: 892px;
+}
+
+.plan-trip_desc {
+  font-family: "Aleo";
+  font-style: italic;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  margin-top: 32px;
+  letter-spacing: 0.1px;
+}
+
+.plan-trip_text {
+  width: 892px;
+  height: 95px;
+  color: #F2785C;
+  font-family: "Aleo";
+  font-style: italic;
+  font-size: 24px;
+  line-height: 29px;
+  background: rgba(255, 255, 255, 0.7);
+  border-radius: 16px;
+  border: 0;
+  margin-bottom: 33px;
+  margin-top: 46px;
+  overflow-y: hidden;
+}
+
+.plan-trip_text::-webkit-input-placeholder {
+  padding: 32px 45px 41px 41px;
+  color: #F2785C;
+}
+
+.plan-trip_text:-ms-input-placeholder {
+  padding: 32px 45px 41px 41px;
+  color: #F2785C;
+}
+
+.plan-trip_text::-ms-input-placeholder {
+  padding: 32px 45px 41px 41px;
+  color: #F2785C;
+}
+
+.plan-trip_text::placeholder {
+  padding: 32px 45px 41px 41px;
+  color: #F2785C;
+}
+
+.plan-trip_btn {
+  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 2px 3px rgba(13, 96, 111, 0.16);
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 2px 3px rgba(13, 96, 111, 0.16);
+  border-radius: 10px;
+  background-color: #0D606F;
+  color: #fff;
+  border: 0;
+  font-weight: 500;
+  font-family: "Red Hat Text";
+  font-size: 24px;
+  line-height: 32px;
+  width: 228px;
+  height: 59px;
+  position: absolute;
+  left: 766px;
+  top: 434px;
+  z-index: 2;
+  letter-spacing: 0.5px;
 }
 /*# sourceMappingURL=style.css.map */
