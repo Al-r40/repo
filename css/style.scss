@@ -1,0 +1,86 @@
+$white-color: #fff;
+$header-color: rgba(242, 120, 92, 0.7);
+$btn-color: #0D606F;
+$magra-font-family: 'Magra';
+$red_hat_text-family: 'Red Hat Text';
+
+
+@mixin fix {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    max-width: 1440px;
+}
+
+.header-cont {
+    height: 90px;
+    background-color: $header-color;
+    box-shadow: 0px 4px 4px rgba(13, 96, 111, 0.5);
+    display: flex;
+    align-items: center;
+    @include fix;
+}
+
+.header-wrapper {
+    width: 1200px;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-family: $magra-font-family;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 39px;
+    color: $white-color;
+    letter-spacing: 0.5px;
+    margin-right: 10px;
+}
+
+.nav-list {
+    display: flex;
+}
+
+.nav-list_item {
+    font-family: $red_hat_text-family;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    list-style: none;
+    margin-right: 42px;
+    letter-spacing: 0.5px;
+    &:nth-last-child() {
+        margin-left: 0;
+    }
+}
+
+.link {
+    color: $white-color;
+    text-decoration: none;
+}
+
+.login_btn {
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 2px 3px rgba(13, 96, 111, 0.16);
+    border-radius: 10px;
+    background-color: $btn-color;
+    width: 103px;
+    height: 41px;
+    color: $white-color;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    font-family: $red_hat_text-family;
+    border: 0;
+}
