@@ -314,3 +314,37 @@ h1 {
 .stories-wrapper_btn {
     margin-top: 32px;
 }
+
+// FOOTER
+
+.footer-cont {
+    width: 728.96px;
+    position: absolute;
+    top: 3686px;
+    left: 41%;
+    color: $white-color;
+    font-family: $red_hat_text-family;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    letter-spacing: 0.5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-cont_center {
+    letter-spacing: 0.35px;
+}
+
+.footer-list {
+    display: flex;
+}
+
+.footer-list_item {
+    list-style: none;
+    &:nth-child(2) {
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+}

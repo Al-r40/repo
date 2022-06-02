@@ -369,4 +369,45 @@ h1 {
 .stories-wrapper_btn {
   margin-top: 32px;
 }
+
+.footer-cont {
+  width: 728.96px;
+  position: absolute;
+  top: 3686px;
+  left: 41%;
+  color: #fff;
+  font-family: "Red Hat Text";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  letter-spacing: 0.5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.footer-cont_center {
+  letter-spacing: 0.35px;
+}
+
+.footer-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.footer-list_item {
+  list-style: none;
+}
+
+.footer-list_item:nth-child(2) {
+  margin-right: 20px;
+  margin-left: 20px;
+}
 /*# sourceMappingURL=style.css.map */
